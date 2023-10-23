@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-areas:
+    "header  header"
+    "main main"
+    "main  main"
+    "main main"
+    "main main"
+    "footer  footer";
+    height: 100vh
+}
+
+header{ 
+    grid-area: header;
+    background-color: bisque;
+
+
+}
+main{
+    grid-area: main;
+    background-color: azure;
+}
+aside{
+    grid-area: aside;
+    background-color: rgb(205, 223, 255);
+    border: solid black;
+}
+footer{
+    grid-area: footer;
+    background-color: beige;
+}
+ h1{
+    text-align: center;
+ }
+ h2{
+    text-align: center;
+ }
+
+ main{ 
+    text-align: center;
+    border: solid black;
+ }
+
+ footer{
+    text-align: center;
+ }
+ .iconoHTML{
+    width: 800px;
+ }
+ 
+ 
